@@ -6,13 +6,13 @@
 /*   By: jmabel <jmabel@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 11:44:48 by jmabel            #+#    #+#             */
-/*   Updated: 2022/01/01 21:26:12 by jmabel           ###   ########.fr       */
+/*   Updated: 2022/03/20 18:59:12 by jmabel           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static	size_t	ft_str_count(char const *s, char c)
+static size_t	ft_str_count(char const *s, char c)
 {
 	size_t	count;
 	size_t	i;

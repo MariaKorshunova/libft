@@ -6,7 +6,7 @@
 #    By: jmabel <jmabel@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/10/12 16:09:09 by jmabel            #+#    #+#              #
-#    Updated: 2022/01/03 15:14:57 by jmabel           ###   ########.fr        #
+#    Updated: 2022/03/20 18:54:56 by jmabel           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -22,11 +22,11 @@ SRCS		=	ft_isalpha.c	ft_isdigit.c	ft_isalnum.c	ft_isascii.c\
 				ft_putendl_fd.c	ft_putnbr_fd.c	ft_itoa.c		ft_split.c\
 				ft_striteri.c	ft_strmapi.c
 
-SRCS_B		=	ft_lstnew_bonus.c			ft_lstadd_front_bonus.c\
-				ft_lstsize_bonus.c			ft_lstlast_bonus.c\
-				ft_lstadd_back_bonus.c		ft_lstdelone_bonus.c\
-				ft_lstclear_bonus.c			ft_lstiter_bonus.c\
-				ft_lstmap_bonus.c
+SRCS_B		=	ft_lstnew.c			ft_lstadd_front.c\
+				ft_lstsize.c		ft_lstlast.c\
+				ft_lstadd_back.c	ft_lstdelone.c\
+				ft_lstclear.c		ft_lstiter.c\
+				ft_lstmap.c
 
 HEADER		=	libft.h
 
